@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 # Функция-обработчик для команды /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     # Отправляем ответ пользователю
-    await update.message.reply_text("Привет! Я ваш новый бот. Чем могу помочь?")
+    await update.message.reply_text("тест бот,пон?")
 
 # Основная функция для запуска бота
 def main():
